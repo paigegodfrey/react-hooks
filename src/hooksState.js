@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const App = () => {
+const Example1 = () => {
   const [buttonClicked, setButtonClicked] = useState(false);
 
   const handleClick = () => {
@@ -14,4 +14,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default Example1;

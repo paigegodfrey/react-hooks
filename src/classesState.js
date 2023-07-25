@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class App extends Component {
+class Example1 extends Component {
   constructor(props) {
     super(props);
-    
     this.state = { 
       buttonClicked: false 
     };
@@ -13,7 +12,7 @@ class App extends Component {
 
   handleClick() {
     this.setState((prevState) => ({
-      btnClicked: !prevState.btnClicked,
+      buttonClicked: !prevState.buttonClicked,
     }));
   }
 
@@ -26,4 +25,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Example1;
